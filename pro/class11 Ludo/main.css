@@ -1,0 +1,352 @@
+.main{
+    background-color: rgb(243, 245, 245);
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.box1{
+    /* background-color: rgb(22, 233, 14); */
+    width: 700px;
+    height: 700px;
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+
+}
+.box2{
+    /* background-color: rgb(222, 233, 14); */
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+
+
+}
+.box3{
+    /* background-color: rgb(14, 233, 233); */
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+
+
+}
+.box4{
+    /* background-color: rgb(36, 14, 233); */
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+
+
+}
+.box5{
+    /* background-color: rgb(193, 11, 157); */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 48px;
+    border: 1px solid black;
+
+}
+.box6{
+    /* background-color: rgb(15, 13, 15); */
+    background-image: conic-gradient(from 135deg, red 0deg 90deg, green 90deg 180deg, blue 180deg 270deg, yellow 270deg 360deg);
+    
+    width: 200px;
+
+    height: 200px;
+    position: relative;
+    top: 48px;
+    border: 1px solid black;
+
+}
+
+/* 
+.mid{
+    
+        width: 200px;
+        height: 200px;
+        background-image: conic-gradient(from 135deg, red 0deg 90deg, green 90deg 180deg, blue 180deg 270deg, yellow 270deg 360deg);
+
+} */
+
+.green{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    border: 1px solid black;
+
+}
+
+.red{
+        background-color: red;
+        width: 250px;
+        height: 250px;
+        position:absolute;
+        top: 550px;
+        left: 0;
+        z-index: 5;
+    border: 1px solid black;
+
+}
+
+.blue{
+    background-color: blue;
+        width: 250px;
+        height: 250px;
+        position:absolute;
+        top: 0;
+        left: 550px;
+        z-index: 5;
+    border: 1px solid black;
+
+
+}
+
+.yellow{
+
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    top: 550px;
+    left: 550px;
+    z-index: 5;
+    border: 1px solid black;
+
+
+}
+
+
+.midwhite{
+
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:  50px;
+    border: 1px solid black;
+
+}
+.colon1{
+    background-color: blue;
+    height: 299px;
+    width: 80px;
+    position:absolute;
+    top: -1px;
+    left: 357px;
+    z-index: 5;
+    border: 1px solid black;
+
+}
+.row1{
+    background-color:yellow;
+    height: 80px;
+    width: 299px;
+    position:absolute;
+    top: 357px;
+    left: 500px;
+    z-index: 5;
+    border: 1px solid black;
+
+}
+.row2{
+   background-color:green;
+    height: 80px;
+    width: 299px;
+    position:absolute;
+    top: 357px;
+    left: 0px;
+    z-index: 5;
+    border: 1px solid black;
+
+    /* position:absolute;
+    top: 357px;
+    left: 0px;
+    z-index: 5; */
+}
+.colon2{
+    background-color: red;
+    height: 298px;
+    width: 80px;
+    position:absolute;
+    top: 500px;
+    left: 357px;
+    z-index: 5;
+    border: 1px solid black;
+
+}
+
+.balls{
+
+    background-color: green;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.balls1{
+
+    background-color: red;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.balls2{
+    background-color: blue;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.balls3{
+    background-color: yellow;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.greenbox{
+    width: 50px;
+    height: 106px;
+    background-color: green;
+    position: relative;
+    top: 784px;
+    left: 401px;
+    z-index: 5;
+    border: 0.5px solid black;
+}
+
+.redbox{
+    width: 107px;
+    height: 48px;
+    background-color: red;
+    position: relative;
+    top: 1128px;
+    left: 602px;
+    z-index: 7;
+    border: 0.5px solid black;
+}
+
+.bluebox{
+    width: 112px;
+    height: 51px;
+    background-color: blue;
+    position: relative;
+    top: 427px;
+    left: 789px;
+    z-index: 5;
+    border: 0.5px solid black;
+}
+
+.yellowbox{
+   width: 49px;
+    height: 112px;
+    background-color: yellow;
+    position: relative;
+    top: 761px;
+    left: 1052px;
+    z-index: 5;
+    border: 0.5px solid black;
+}
+
+.star1{
+    width: 51px;
+    height: 54px;
+    /* background-color: grey; */
+    position: relative;
+    top: 678px;
+    left: 401px;
+    z-index: 5;
+    font-size: 54px;
+}
+.star2{
+    width: 52px;
+    height: 50px;
+    background-color: grey;
+    position: relative;
+    top: 858px;
+    left: 820px;
+    z-index: 5;
+    font-size: 53px;
+    
+}
+.star3{
+    width: 50px;
+    height: 51px;
+    /* background-color: grey; */
+    position: relative;
+    top: 157px;
+    left: 630px;
+    z-index: 5;
+    font-size: 53px;
+    
+}
+.star4{
+    width: 49px;
+    height: 55px;
+    /* background-color: grey; */
+    position: relative;
+    top: 332px;
+    left: 1053px;
+    z-index: 5;
+    font-size: 54px;
+}
+
+.fausgreen{
+    display: contents;
+    color: green;
+}
+.fausgreen1{
+    display: contents;
+    color: red;
+}
+.fausgreen2{
+    display: contents;
+    color: blue;
+}
+.fausgreen3{
+    display: contents;
+    color: yellow;
+}

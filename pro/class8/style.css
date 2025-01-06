@@ -1,0 +1,128 @@
+.main{
+    background-color:#3B5998 ;
+    width: 100%;
+    height: 90px;
+}
+.item1{
+    float: left;
+    width: 50%;
+    height: 90px; 
+    font-size: xx-large;
+
+}
+.item2{
+    float: left;
+    width: 50%;
+    height: 90px; 
+}
+.logo{
+    color: white;
+    margin-left: 190px;
+    margin-top: 8px;
+}
+.subItem1{
+    /* background-color: black; */
+    float: left;
+    width: 170px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.subItem2{
+    /* background-color: rgb(242, 10, 10); */
+    float: left;
+    width: 170px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.subItem3{
+    /* background-color: rgb(37, 10, 214); */
+    float: left;
+    width: 49px;
+    height: 28px;
+    margin-top: 35px;
+    margin-left: 2px;
+
+}
+.btn{
+    padding: 8%;
+    color: white;
+    background-color:#6E83B0;
+    border-radius: 5px;
+}
+
+/* label{
+    color: white;
+    margin-top: 15px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.mailpass{
+
+    color: white;
+    margin-top: 15px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+}
+
+.min2Item1{
+    width: 62%;
+    /* background-color: red; */
+    height: 100vh;
+    float: left;
+}
+.min2Item2{
+    width: 38%;
+    /* background-color: green; */
+    height: 100vh;
+    float: left;
+
+}
+
+.heading1{ 
+
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstName{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: none; */
+}
+.input{
+    width: 323px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: none; */
+}
+.selectBox{
+    width: 112px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn2{
+    width: 200px;
+    padding: 15px;
+    background-color: green;
+    border-radius: 5px;
+    /* border: none; */
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 0px white;
+    color: white ;
+}
+.box{
+    margin-left: 50px;
+}
